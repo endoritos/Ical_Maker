@@ -1,6 +1,6 @@
 # README: iCal Maker with Python
 
-This project demonstrates how to create an iCalendar (.ics) file using Python. Follow the steps below to set up the environment, understand the code structure, and customize the demo data for your needs.
+This project demonstrates how to create an iCalendar (.ics) file using Python. Follow the steps below to set up the environment, understand the code structure, and customize the demo data for your needs. U can start at step 4 if u don't want to have to start a vm everytime.
 
 ---
 
@@ -56,6 +56,8 @@ cal.add("version", "2.0")
 # Example: Replace with your data
 events = [
     {"date": "YYYY-MM-DD", "start_time": "HH:MM", "end_time": "HH:MM", "class": "Event Name", "room": "Location"},
+    {"date": "YYYY-MM-DD", "start_time": "HH:MM", "end_time": "HH:MM", "class": "Event Name", "room": "Location"},
+
     # Add more events here...
 ]
 
@@ -162,3 +164,4 @@ print("Demo iCal file 'demo_timetable.ics' generated successfully!")
 
 Feel free to customize the data and share the `.ics` file with others!
 
+Form Endy okpamen ode 
